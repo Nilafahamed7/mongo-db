@@ -59,7 +59,6 @@ Advanced queries //
 db.books.find().sort({ published_year: -1 }).limit(3) — Sorts by published_year in descending order (-1) and returns the top 3 results.
 
 
-Operation	Command	Purpose
 Create	insertOne(), insertMany()	Add new documents
 Read	find(), sort(), limit()	Retrieve documents
 Update	updateOne(), updateMany()	Modify existing documents
